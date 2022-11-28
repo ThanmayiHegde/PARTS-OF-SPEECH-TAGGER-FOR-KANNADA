@@ -33,10 +33,10 @@ The dataset includes the corpus.txt file which has different KANNADA words and t
 Its consists of two .ipynb files namely,
 
 
-1)**POS_Tagger_CRF.ipynb**
+1)**POS_Tagger_CRF.ipynb**:
 This contains all the python codes for feature extraction from the corpus that we have considered. Also includes Conditional Random Field Model to predict the appropiate POS Tags for the words considered.
 
-2)**POS_Tagger_BiLSTM.ipynb**
+2)**POS_Tagger_BiLSTM.ipynb**:
 This files contains Bidirectional Long Short Term Memory Model (BiLSTM) fpr predicting and asigning the POS Tags for the given list of kannada words from the corpus.
 
 # Modelling
@@ -44,11 +44,23 @@ We have implemented this using one machine learning - "Conditional Random Field"
 
 # 1) Conditional Random Fields :
 
+We use Linear Chain Conditional Random Fields model (log-linear) to train and predict the part-of-speech tags of the words in the corpus.
+
+The accuracy obtained when we use this model is **66.85714**.
 
 
 # 2) Bidirectional Long Short Term Memeory:
 
+The character embeddings were learned with the help of a biLSTM network. The output of the biLSTM was the representation of the word by using the character embeddings of individual letters present inside the word which helps in improving the accuracy.
+It combines the word embedding with the character embedding where a better syntactic representation is learned to gain character level information.
 
+The accuracy obtained when we use this model is **74.00615**
+(https://www.researchgate.net/publication/324546027/figure/fig2/AS:616096797310976@1523900331342/Sequence-To-Sequence-Learning-using-BiLSTM-for-POS-Tagging.png)
+
+
+
+# Conclusion
+Based on the accuracy values we can conclude that BiLSTM model outperforms CRF model for tagging POS for kannada.
 
 # References
 1)[1] Shriya Atmakuri, Bhavya Shahi, Ashwath Rao B∗ and Muralikrishna SN, "A comparison of features for POS tagging in Kannada", International Journal of Engineering & Technology.
