@@ -1,7 +1,8 @@
 # MI-PROJECT
 Part-of-Speech tagging is one of the most basic natural language processing tasks where each word of a sentence is tagged with appropriate syntactic labels such as noun, pronoun, verb, adjective and so on. 
 
-**A tag set of 14 tags has been used to perform the part-of-speech tagging : **
+**A tag set of 14 tags has been used to perform the part-of-speech tagging :**
+
 -CC coordinating conjunction
 
 -CD cardinal digit
