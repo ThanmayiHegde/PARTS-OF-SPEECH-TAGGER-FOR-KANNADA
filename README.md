@@ -46,6 +46,15 @@ We have implemented this using one machine learning - "Conditional Random Field"
 
 
 
+# 2) Bidirectional Long Short Term Memeory:
+
+
+
+# References 
+1)[https://www.researchgate.net/publication/328773946_A_comparison_of_features_for_POS_tagging_in_Kannada]
+
+
+
 
 
 
