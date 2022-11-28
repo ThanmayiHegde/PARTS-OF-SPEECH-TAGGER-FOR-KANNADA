@@ -26,15 +26,23 @@ Part-of-Speech tagging is one of the most basic natural language processing task
 
 
 # Dataset
-The dataset includes the corpus 
+The dataset includes the corpus.txt file which has different KANNADA words and their corresponding POS tags.There are 6799 words in the corpus.
+
 
 # Files
 Its consists of two .ipynb files namely,
+
+
 1)------------.ipynb 
 This contains all the python codes for feature extraction from the corpus that we have considered. Also includes Conditional Random Field Model to predict the appropiate POS Tags for the words considered.
 
 2)------------.ipynb
 This files contains Bidirectional Long Short Term Memory Model (BiLSTM) fpr predicting and asigning the POS Tags for the given list of kannada words from the corpus.
+
+# Modelling
+We have implemented this using one machine learning - "Conditional Random Field" and one deep learning model - "Bidirectional Long Short Term Memory". Accuracy for each of the models and found out.Test set words with their predicted tags are also being display in form of list of tuples.
+
+# 1) Conditional Random Fields :
 
 
 
