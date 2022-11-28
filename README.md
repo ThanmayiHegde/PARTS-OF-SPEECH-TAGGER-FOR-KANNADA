@@ -33,10 +33,10 @@ The dataset includes the corpus.txt file which has different KANNADA words and t
 Its consists of two .ipynb files namely,
 
 
-1)------------.ipynb 
+1)**POS_Tagger_CRF.ipynb**
 This contains all the python codes for feature extraction from the corpus that we have considered. Also includes Conditional Random Field Model to predict the appropiate POS Tags for the words considered.
 
-2)------------.ipynb
+2)**POS_Tagger_BiLSTM.ipynb**
 This files contains Bidirectional Long Short Term Memory Model (BiLSTM) fpr predicting and asigning the POS Tags for the given list of kannada words from the corpus.
 
 # Modelling
@@ -53,7 +53,6 @@ We have implemented this using one machine learning - "Conditional Random Field"
 # References
 1)[1] Shriya Atmakuri, Bhavya Shahi, Ashwath Rao B∗ and Muralikrishna SN, "A comparison of features for POS tagging in Kannada", International Journal of Engineering & Technology.
 
-
 **Available : [https://www.researchgate.net/publication/328773946_A_comparison_of_features_for_POS_tagging_in_Kannada]**
 
 
@@ -64,7 +63,6 @@ We have implemented this using one machine learning - "Conditional Random Field"
 
 
 3)M. Rajani Shree & B. R. Shambhavi (2020) “POS tagger model for Kannada text with CRF++ and deep learning approaches”, Journal of Discrete Mathematical Sciences and Cryptography.
-
 
 **Available: [https://www.tandfonline.com/doi/abs/10.1080/09720529.2020.1728902]**
 
@@ -79,17 +77,19 @@ We have implemented this using one machine learning - "Conditional Random Field"
 
 5)Parts of Speech Tagging for Kannada and Hindi Languages using ML and DL    models.
 
-
 **Available at:   [https://www.academia.edu/35295207/Parts_Of_Speech_POS_Tagger_for_Kannada_Using_Conditional_Random_Fields_CRFs]**
 
 
 6)Parts Of Speech (POS) Tagger for Kannada Using Conditional    Random Fields (CRFs),Bangalore, India,08-10 July 2022.
+
 **Available at: https://ieeexplore.ieee.org/document/9865745**
 
 7)Alebachew Chiche,Betselot Yitagesu, "Part of speech tagging: a systematic review of deep learning and machine learning approaches",Chiche and Yitagesu Journal of Big Data,2022.
+
 **Available at: https://doi.org/10.1186/s40537-022-00561-y**
 
 8)C´ıcero Nogueira dos Santos,Bianca Zadrozny , "Learning Character-level Representations for Part-of-Speech Tagging",31st International Conference for Machine Learning,21 June 2014. 
+
 **Available at: 
 https://www.researchgate.net/publication/274380525_Learning_Character-level_Representations_for_Part-of-Speech_Tagging**
 
