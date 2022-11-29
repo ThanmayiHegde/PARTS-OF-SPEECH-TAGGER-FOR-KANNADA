@@ -113,7 +113,7 @@ https://www.researchgate.net/publication/274380525_Learning_Character-level_Repr
 
 # How to run?
 - Keep the corpus in the same directory as the two .ipynb files.
-- Install required package to run the code.
+- Install required package in order to run codes.
 - Load corpus to run the codes.
 - Run all the cells in sequential manner.
-- Interpret the required results.
+- Interpret the results obtained from models.
