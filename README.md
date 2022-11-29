@@ -55,7 +55,7 @@ The character embeddings were learned with the help of a biLSTM network. The out
 It combines the word embedding with the character embedding where a better syntactic representation is learned to gain character level information.
 
 The accuracy obtained when we use this model is **74.00615**
-(https://www.researchgate.net/publication/324546027/figure/fig2/AS:616096797310976@1523900331342/Sequence-To-Sequence-Learning-using-BiLSTM-for-POS-Tagging.png)
+
 
 
 
