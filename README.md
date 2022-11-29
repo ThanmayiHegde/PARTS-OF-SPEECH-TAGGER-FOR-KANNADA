@@ -111,15 +111,9 @@ https://www.researchgate.net/publication/274380525_Learning_Character-level_Repr
 **Available: https://www.researchgate.net/publication/324546027_Building_a_Kannada_POS_Tagger_Using_Machine_Learning_and_Neural_Network_Models**
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+# How to run?
+- Keep the corpus in the same directory as the two .ipynb files.
+- Install required package to run the code.
+- Load corpus to run the codes.
+- Run all the cells in sequential manner.
+- Interpret the required results.
